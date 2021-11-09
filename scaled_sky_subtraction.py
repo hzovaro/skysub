@@ -8,8 +8,6 @@ from mpfit import mpfit
 from itertools import product
 from tqdm import tqdm
 
-from IPython.core.debugger import Tracer
-
 import matplotlib.pyplot as plt
 from matplotlib import rc, patches
 rc("font", size=8)
