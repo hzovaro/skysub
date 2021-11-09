@@ -10,8 +10,17 @@ For details, see Zovaro et al. (2020):
     https://ui.adsabs.harvard.edu/abs/2020MNRAS.499.4940Z/abstract 
 
 Dependencies:
+    numpy
+    astropy
+    mpfit
+    tqdm
+    itertools
+    matplotlib
 
-    Tested in python 3.7
+Tested in python 3.7.
 
 Basic usage:
-    python scaled_sky_subtraction.py datacube.fits 
+    python scaled_sky_subtraction.py <fname>.fits 
+    The sky-subtracted data is saved to the FITS file <fname>_python_skysub.fits in the same directory as the input file.
+
+A sample FITS file of the z ~ 0.2 radio galaxy 4C 14.82 has been included as an example.
