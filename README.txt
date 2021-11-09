@@ -22,5 +22,7 @@ Tested in python 3.7.
 Basic usage:
     python scaled_sky_subtraction.py <fname>.fits 
     The sky-subtracted data is saved to the FITS file <fname>_python_skysub.fits in the same directory as the input file.
+    
+    If the "plot_skyline_fit" flag on line 22 is set to True, the Gaussian fits to every skyline are shown. Note that turning this flag on massively slows execution! 
 
 A sample FITS file of the z ~ 0.2 radio galaxy 4C 14.82 has been included as an example.
